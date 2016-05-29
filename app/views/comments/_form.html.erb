@@ -1,0 +1,17 @@
+<div class="page-header">
+  <h2>Create New Comment</h2>
+</div>
+
+<%= form_for([post, Comment.new]) do |f| %>
+  <div class="form-group">
+    <%= f.label :author %>
+    <%= f.text_field :author, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :text %>
+    <%= f.text_area :text, class: 'form-control' %>
+  </div>
+
+  <%= f.submit nil, class: 'btn btn-primary' %>
+<% end %>
