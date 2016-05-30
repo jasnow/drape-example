@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/MrEmelianenko/drape.git
-  revision: 0519a6fb1029dd05d12c400a4f8e1ba1c6ed63bc
+  revision: cc9e8d55341d3145317d425031f5cb46f9cba552
   specs:
-    drape (1.0.0)
+    drape (1.0.0.beta1)
       actionpack (>= 5.0.0.beta1)
       activemodel (>= 5.0.0.beta1)
       activemodel-serializers-xml (>= 1.0)
